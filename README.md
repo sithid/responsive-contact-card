@@ -30,7 +30,7 @@ Follow these steps to fork and clone the repository:
 
 To view the project locally, you can either open the project files in your code editor or open the HTML files in your browser.
 
-### Tasks
+### Tasks - Place x inside the box when complete.
 In `index.html`, add the following for your contact card:
 - [ ] A Profile Image (your image should be stored in the images folder)
 - [ ] A Name
