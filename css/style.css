@@ -16,11 +16,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
   min-width: 200px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
 }
 
 #profile-pic {
   max-width: 160px;
   border-radius: 25%;
+  width: 100%;
 }
 
 .person-details, .company-details {
@@ -40,11 +44,16 @@ body {
     flex-direction: row;
     gap: 100px;
   }
+  
+  .contact-card {
+    width: 80%;
+  }
 }
 
 @media screen and (width >= 768px) {
   .contact-card {
     flex-direction: row;
+    width: 70%;
   }
 
   .contact-info {
