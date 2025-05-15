@@ -32,16 +32,16 @@ To view the project locally, you can either open the project files in your code 
 
 ### Tasks - Place x inside the box when complete.
 In `index.html`, add the following for your contact card:
-- [ ] A Profile Image (your image should be stored in the images folder)
-- [ ] A Name
-- [ ] Title
-- [ ] Phone Number
-- [ ] Company Name
+- [x] A Profile Image (your image should be stored in the images folder)
+- [x] A Name
+- [x] Title
+- [x] Phone Number
+- [x] Company Name
 
 In `style.css`, do the following:
-- [ ] Include the css reset in this file. If you are unsure how to do this, please refer to the last assignment.
-- [ ] Write two media queries to account for larger sized screens. Use the breakpoint sizes from the example wireframe or adjust them to fit your card.
-- [ ] Ensure that your card is centered horizontally on all device sizes.
+- [x] Include the css reset in this file. If you are unsure how to do this, please refer to the last assignment.
+- [x] Write two media queries to account for larger sized screens. Use the breakpoint sizes from the example wireframe or adjust them to fit your card.
+- [x] Ensure that your card is centered horizontally on all device sizes.
 
 
 **BONUS**

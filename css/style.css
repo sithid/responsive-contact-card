@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-width: 200px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: paleturquoise;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 200px;
+}
+
+#profile-pic {
+  max-width: 160px;
+  border-radius: 25%;
+}
+
+.person-details, .company-details {
+  line-height: 5px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (width >= 500px) {
+  .contact-info {
+    flex-direction: row;
+    gap: 100px;
+  }
+}
+
+@media screen and (width >= 768px) {
+  .contact-card {
+    flex-direction: row;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
